@@ -1,3 +1,5 @@
+const envConfig = require('./env.json');
+
 module.exports = {
   /*
   ** Headers of the page
@@ -34,5 +36,9 @@ module.exports = {
         })
       }
     }
-  }
+  },
+  /*
+  ** Environment variables (in private file)
+  */
+  env: envConfig
 }
